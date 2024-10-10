@@ -19,12 +19,12 @@ namespace Hemuppgift_Arv_Temp.Game
     
         
         
-        public void SetUP(int pins) 
+        public void SetUP(int pins) // Startvärdet, metoden sätter det i NoPins.
         {
             NoPins = pins;
         }
 
-        public void TakePins(int takePins) 
+        public void TakePins(int takePins) //Metod för att ta minska värdet på stickor
         {
            
                 NoPins = NoPins - takePins;
@@ -32,7 +32,7 @@ namespace Hemuppgift_Arv_Temp.Game
             
         }
 
-        public int GetNoPins() 
+        public int GetNoPins() // Metod för att visa hur många stickor
         { 
             return NoPins; 
         }

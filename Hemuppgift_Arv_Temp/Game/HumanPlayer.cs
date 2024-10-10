@@ -8,18 +8,18 @@ namespace Hemuppgift_Arv_Temp.Game
 {
     public class HumanPlayer : Player
     {
-
+        //Konstruktor
         public HumanPlayer(string UserID) : base(UserID) 
         { 
         
         }
-
+        //Metod
         public override int TakePins(Board board)
         {
             Console.WriteLine("Välj hur många stickor du vill ta(1 eller 2):");
             int temp = Convert.ToInt32(Console.ReadLine());
 
-            while (temp < 1 || temp > 2)
+            while (temp < 1 || temp > 2) //säkerställer att man väljer 1 eller 2
             {
                 Console.WriteLine("Felaktigt val! Välj antingen 1 eller 2 stickor.");
                 temp = Convert.ToInt32(Console.ReadLine());

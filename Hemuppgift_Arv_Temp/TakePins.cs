@@ -10,7 +10,7 @@ namespace Hemuppgift_Arv_Temp
             // Fråga F2 a) Det är en basklass. F2 b) alternativ 2 och 3.
 
             Player player1 = new HumanPlayer("Peter");
-            Player player2 = new ComputerPlayer("Computer");
+            Player player2 = new SmartComputerPlayer("Computer");
             Board board = new Board();
 
             //Väljer hur många stickor spelet ska innehålla

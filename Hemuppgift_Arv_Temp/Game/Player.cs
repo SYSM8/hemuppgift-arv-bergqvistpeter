@@ -18,7 +18,7 @@ namespace Hemuppgift_Arv_Temp.Game
         }
         //Metod
 
-        public string GetUserID() 
+        public string GetUserID() //Metod som tar namn
         
         { 
             return UserID;
